@@ -162,10 +162,6 @@ export default {
       });
     },
     create() {
-      console.log(this.publisherInput.name);
-      console.log(this.publisherInput.nim);
-      console.log(this.publisherInput.email);
-      console.log(this.selectedPublisher);
       PublicationService.addPublication({
         name: this.publication.name,
         description: this.publication.description,

@@ -87,7 +87,6 @@ export default {
       },
       types: [],
       selectedType: 0,
-      
     };
   },
   mounted() {
